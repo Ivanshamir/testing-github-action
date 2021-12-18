@@ -24,6 +24,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIPHY_API_KEY: ${{ secrets.GIPHY_API_KEY }}
         with:
-#           trigger: '[".*looks good to me.*"]'
-#           overide: true
+          trigger: '[".*looks good to me.*"]'
+          overide: true
           source: 'giphy'

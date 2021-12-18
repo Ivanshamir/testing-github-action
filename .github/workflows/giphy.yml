@@ -22,8 +22,8 @@ jobs:
       - uses: micnncim/action-lgtm-reaction@master # Set some version.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           GIPHY_API_KEY: ${{ secrets.GIPHY_API_KEY }}
-#         with:
+          GIPHY_API_KEY: ${{ secrets.GIPHY_API_KEY }}
+        with:
 #           trigger: '[".*looks good to me.*"]'
 #           overide: true
-#           source: 'giphy'
+          source: 'giphy'
